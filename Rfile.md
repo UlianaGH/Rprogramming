@@ -4,12 +4,12 @@
 makeCacheMatrix <- function( m = matrix() ) {
 ## Initialize the inverse property
 i <- NULL
-
+ 
 ## Method to set the matrix
 set <- function( matrix ) {
 m <<- matrix
 i <<- NULL}
-
+ 
 ## Method the get the matrix
 get <- function() {
 ## Return the matrix
